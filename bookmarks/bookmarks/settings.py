@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'account',
+    'images',
 ]
 
 MIDDLEWARE = [
@@ -55,8 +56,8 @@ MIDDLEWARE = [
 ]
 
 AUTHENTICATION_BACKENDS = (
-'django.contrib.auth.backends.ModelBackend',
-'account.authentication.EmailAuthBackend',
+    'django.contrib.auth.backends.ModelBackend',
+    'account.authentication.EmailAuthBackend',
 )
 
 ROOT_URLCONF = 'bookmarks.urls'
