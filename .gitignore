@@ -55,5 +55,5 @@ docs/_build/
 
 
 # custom
-/media
+bookmarks/media
 db.sqlite3
