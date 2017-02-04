@@ -31,7 +31,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
+THUMBNAIL_DEBUG = True
 # Application definition
 
 INSTALLED_APPS = [
@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'account',
     'images',
+    'sorl.thumbnail',
 ]
 
 MIDDLEWARE = [

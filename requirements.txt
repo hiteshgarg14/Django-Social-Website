@@ -7,7 +7,7 @@ Pillow==4.0.0
 PyJWT==1.4.2
 pyparsing==2.1.10
 python-openid==2.2.5
-python-social-auth==0.2.12
 requests==2.13.0
 requests-oauthlib==0.7.0
 six==1.10.0
+sorl-thumbnail==12.3
