@@ -66,7 +66,7 @@
                     // update total likes
                     var previous_likes = parseInt($('span.count .total').text());
                     $('span.count .total').text(previous_action == 'like' ? previous_likes + 1 : previous_likes - 1);
-
+                    
                     // update liked by section
                     $(".image-likes").load(location.href + " .image-likes");
 
