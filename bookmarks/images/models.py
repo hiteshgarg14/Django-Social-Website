@@ -31,6 +31,7 @@ class Image(models.Model):
     users_likes = models.ManyToManyField(settings.AUTH_USER_MODEL,
                                          related_name='images_liked',
                                          blank=True)
+    total_likes = models.PositiveIntegerField(default=0)                                     
 
     def save(self, *args, **kwargs):
         if not self.slug:
